@@ -9,7 +9,7 @@ return [
         'name' => 'InternetShop',
     ],
     'encryption' => env('MAIL_ENCRYPTION', 'tls'),
-    'username' => env('MAIL_USERNAME', 'pt.82@mail.ru'),
+    'username' => env('MAIL_USERNAME', 'my_user@mail.ru'),
     'password' => env('MAIL_PASSWORD', 'my_pass'),
 
     'sendmail' => '/usr/sbin/sendmail -bs',
