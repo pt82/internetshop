@@ -1,0 +1,23 @@
+// Fonts
+@import '~@fortawesome/fontawesome-free/css/all.css';
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import '../../node_modules/vue-good-table/src/styles/style';
+body {
+    background-color: white !important;
+    }
+a {
+    text-decoration: none !important;
+
+
+}
+$red: #1b1e21;
+$color_btn_active: red;
+$color_btn: orangered;
+$main_color: orangered;
